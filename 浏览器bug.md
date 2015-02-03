@@ -9,3 +9,5 @@ bug总结
 
 		*zoom:1;
     	_position:relative;
+
+- IE7之前不支持min-height,max-height以及相关height属性
