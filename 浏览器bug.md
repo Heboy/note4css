@@ -11,3 +11,4 @@ bug总结
     	_position:relative;
 
 - IE7之前不支持min-height,max-height以及相关height属性
+- IE7不支持display:inline-block，解决办法是声明inline-block后*display:inline
