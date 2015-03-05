@@ -25,3 +25,7 @@ HTML 中的换行符、空格符、制表符等产生了空白符，而这些归
 然而，在IE6，7还是会出现1px的间隙。解决办法：为IE添加*word-spacing:-1px;/* IE6、7 */就可以了。
 
 最后记得把样式重置回来。
+
+##IE6 IE7下行内元素与块元素inline-block的差异
+
+对于行内元素，直接设置inline-block，可以表现的与现代浏览器类似；对于块元素，需要在inline-block后设置display:inline
